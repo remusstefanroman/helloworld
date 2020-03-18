@@ -9,37 +9,22 @@
     <title>
         Roman Remus Stefan
     </title>
-    <script> 
-    fadeText = document.getElementById('remus');
-    function unfade(element) {
-        var op = 0.1;  // initial opacity
-        element.style.display = 'block';
-        var timer = setInterval(function () {
-            if (op >= 1){
-                clearInterval(timer);
-            }
-            element.style.opacity = op;
-            element.style.filter = 'alpha(opacity=' + op * 100 + ")";
-            op += op * 0.1;
-        }, 10);
-    }
-        </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 
 <body>
 
-
-    <div class='image mt-7'>
-        <img id="leafImage" src="fish.jpg">
-    </div>
-
-    <div class='container-fluid mt-5'>
+    <div class='image'>
+        <img id="leafImage" src="wind1.jpg">
+    </div> 
 
 
-        <div class='row'>
+    <div class='container-fluid' style='margin-top:100px'>
 
-            <div class='container-fluid pr-3'>
+        <div class='row '>
+
+            <div class='container-fluid pr-2'>
 
                 <h1 class='display-3 text-right col-md-12 banner'>Remus Stefan Roman</h1>
                 <h2 class='text-right col-md-12 banner subtitle'>Big-time Client Angler - Web Developer</h2>
@@ -81,5 +66,4 @@
         </div>
 
     </div>
-
 </body>
