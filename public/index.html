@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Viga&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&display=swap" rel="stylesheet">
+
+    <title>
+        Roman Remus Stefan
+    </title>
+    <script> 
+    fadeText = document.getElementById('remus');
+    function unfade(element) {
+        var op = 0.1;  // initial opacity
+        element.style.display = 'block';
+        var timer = setInterval(function () {
+            if (op >= 1){
+                clearInterval(timer);
+            }
+            element.style.opacity = op;
+            element.style.filter = 'alpha(opacity=' + op * 100 + ")";
+            op += op * 0.1;
+        }, 10);
+    }
+        </script>
+</head>
+
+
+<body>
+
+
+    <div class='image mt-7'>
+        <img id="leafImage" src="fish.jpg">
+    </div>
+
+    <div class='container-fluid mt-5'>
+
+
+        <div class='row'>
+
+            <div class='container-fluid pr-3'>
+
+                <h1 class='display-3 text-right col-md-12 banner'>Remus Stefan Roman</h1>
+                <h2 class='text-right col-md-12 banner subtitle'>Big-time Client Angler - Web Developer</h2>
+            </div>
+            
+            
+        </div>
+
+        
+        <div class='row'>
+            <div class='container col-sm-12' style='padding:0' >
+                <div class='section'>
+                <h1 class='text-center display-4 pt-4 ' id='aboutMe'>Hello there!</h1>
+                <p class='paraText text-center pb-5 mt-3 mx-5'>I am your new fishing specialist and I have two statements to make! 
+                    First of all that's not me in the picture, those are just two cool fish and this is the actual 
+                    <a href="#realMe">me</a>. And second of all, I want to say that I am looking forward to helping 
+                    you reel in the big ones! </p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class='row'>
+            <div class='container-fluid p-0'>
+
+                    <div class='section'>
+                        
+                        <h1 class='titles  text-center display-4 pt-4 '>Contact</h1>
+                        <address class='paraText text-center'>
+                        Email me at: <a href="mailto:roman.remus.stefan@gmail.com">Remus Stefan Roman</a><br>
+                        Phone: 0040 746 326 827<br>
+                        </address>
+                    
+                        <img class='col-md-2 offset-md-5 pb-5' src='remus.jpg' id='realMe'>
+                
+                    </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
