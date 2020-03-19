@@ -23,17 +23,24 @@
     }
 }
 
+
+#pageBanner{
+    padding-top: 150px;
+}
+
+
 h1{
-    margin-top: 400px;
     color: white;
-    font-family: 'Viga', sans-serif;
+    font-family: 'Josefin Slab', serif;
+    font-weight: light;
     z-index:10;
 }
 
 h2{
     margin-top: 20px;
     color: white;
-    font-family: 'Viga', sans-serif;
+    font-family: 'Josefin Slab', serif;
+    font-weight: light;
     z-index: 10;
 
 }
@@ -41,11 +48,13 @@ h2{
 .image{
     
     max-width:100%;
-    max-height: 700px;
+    height: 700px;
     position: absolute;
     overflow: hidden;
     margin: 0;
     z-index: 0;
+    margin-top: 100px;
+
 }
 
 #leafImage {
@@ -70,26 +79,31 @@ body{
 }
 
 #aboutMe{
-    margin-top:300px;
+    margin-top:500px;
     padding:0;
     width: 100%;
-    font-family: 'Baloo Chettan 2', cursive;
+    font-family: 'Josefin Slab', serif;
+    font-weight: regular;
     font-size: 3rem;
+   
 }
 
 .section{
     width: 100%;
-    background-color: #f2c75c;
 }
 
 .paraText{
     color: white;
-    font-family: 'Baloo Chettan 2', cursive;
+    font-family: 'Josefin Slab', serif;
+    font-weight: regular;
     font-size: 1.5rem;
+   
 }
 
 .titles{
-    font-family: 'Baloo Chettan 2', cursive;
+    font-family: 'Josefin Slab', serif;
+    font-weight: regular;
     font-size: 3rem;
+    
 }
 
