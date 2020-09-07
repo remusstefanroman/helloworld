@@ -1,109 +1,263 @@
-@media only screen and (min-device-width: 400px){
-    #leafImage{
-        margin-top:-5em;
-    }
+.copy{
+    color: #4E0000;
+    font-family: 'Antic Slab', serif;
+    font-size: 2em;
+    margin: 80px 80px 20px 80px;
+    line-height: 1.5em;
+    position: absolute;
+    text-indent:100px;
 }
-
-@media only screen and (max-device-width: 600px){
-    .image{
-    
-        max-width:100%;
-        height: 1000px;
-        position: absolute;
-        overflow: hidden;
-        margin: 0;
-        z-index: 0;
-    }
-    
-    #leafImage {
-        display: block;
-        z-index:0;
-        height:100%;
-        object-fit: cover;
-    }
-}
-
-
-#pageBanner{
-    padding-top: 150px;
-}
-
 
 h1{
-    color: white;
-    font-family: 'Josefin Slab', serif;
-    font-weight: light;
-    z-index:10;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 30vh;
+    font-weight: 200;
+    margin: 0 0 0 0;
+    line-height: 25vh;
+    color: #4E0000;
 }
 
-h2{
-    margin-top: 20px;
-    color: white;
-    font-family: 'Josefin Slab', serif;
-    font-weight: light;
-    z-index: 10;
-
+#name{
+    height: 50vh;
+    min-width: 30vw;
+    top: 7vw;
+    left: 7vw;
+    position:fixed;
 }
 
-.image{
-    
-    max-width:100%;
-    height: 700px;
+#imageName{
+    height: 100%;
+    margin:0;
+    padding:0;
+}
+
+#title{
+    margin:0 0 0 16px;
+    padding:0;
+    font-size:6.35vh;
+    color: #4E0000;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+.slide-top {
+	-webkit-animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.slide-bottom {
+	-webkit-animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.tabName{
+    font-family: 'Advent Pro', sans-serif;
+    letter-spacing: 6px;
+    color: #4E0000;
+    font-size: 40px;
     position: absolute;
+    top: -25px;
+}
+
+#tN1{
+    left: calc(55% + 250px);
+}
+
+#tN2{
+    left: calc(20% + 250px);
+}
+
+#tN3{
+    left: calc(40% + 250px);
+}
+
+img{
+    width: 100%;
+
+}
+
+.thumb{
+    position: absolute;
+    height:200px;
+    width: 200px;
+    margin-left:80px;
+   
+}
+
+.thumb :hover{
+    background-color: black;
+    opacity: 0.5;
+}
+
+
+.imageContainer{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+.tab{
+    width:100%;    
+    position: absolute;
+}
+
+#tab1{
+    margin-top:75vh;
+}
+
+#tab2{
+    margin-top: 85vh;
+}
+
+#tab3{
+    margin-top: 88vh;
+}
+
+.headGroup{
+    width: 100%;
     overflow: hidden;
-    margin: 0;
-    z-index: 0;
-    margin-top: 100px;
-
-}
-
-#leafImage {
-    max-width:100%;
-    display: block;
-    z-index:0;
-    
+    cursor: pointer;
 }
 
 
+.th{
+    width: 454px;
+    height:50px;
+    margin:0;
+}
+
+#th1{
+    padding-left: 55%;
+}
+
+#th2{
+    padding-left:20%;
+}
+
+#th3{
+    padding-left:40%;
+}
+
+.Ext{
+    height: 50px;
+    position: absolute;
+    top:0;
+}
+
+#ex1{
+    width: 100%;
+    left: calc(55% + 453px);
+    background-color: #7F8C0E;
+}
+
+#ex2{
+    width: 100%;
+    left: calc(20% + 453px);
+    background-color: #FFBE13;
+}
+
+#ex3{
+    width: 100%;
+    left: calc(40% + 453px);
+    background-color: #C84900;
+}
+
+
+.underExt{
+    width:100%;
+    height: 25px;
+    margin-top:-7px;
+}
+
+#ue1{
+    background-color: #7F8C0E;
+}
+
+#ue2{
+    background-color: #FFBE13;
+}
+
+#ue3{
+    background-color: #C84900;
+}
+
+.content{
+    margin-top:-1px;
+    height: 80vh;
+}
+
+#con1{
+    background-color: #7F8C0E;
+}
+
+#con2{
+    background-color: #FFBE13;
+
+}
+
+#con3{
+    background-color: #C84900;
+}
 
 body{
-    background-color: #f2c75c;
-}
-
-.banner{
-    margin-top: 40px;
-}
-
-.subtitle{
-    margin-top: 150px;
-}
-
-#aboutMe{
-    margin-top:500px;
+    margin:0;
     padding:0;
-    width: 100%;
-    font-family: 'Josefin Slab', serif;
-    font-weight: regular;
-    font-size: 3rem;
-   
+    background-color: #B2D5DC;
 }
 
-.section{
-    width: 100%;
+main{
+    width:100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
 }
 
-.paraText{
-    color: white;
-    font-family: 'Josefin Slab', serif;
-    font-weight: regular;
-    font-size: 1.5rem;
-   
+p{
+    font-size: 3em;  
+    height:100%;  
 }
 
-.titles{
-    font-family: 'Josefin Slab', serif;
-    font-weight: regular;
-    font-size: 3rem;
-    
-}
+@-webkit-keyframes slide-top {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(-70vh);
+              transform: translateY(-70vh);
+    }
+  }
+  @keyframes slide-top {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(-70vh);
+              transform: translateY(-70vh);
+    }
+  }
+  
 
+  @-webkit-keyframes slide-bottom {
+    0% {
+      -webkit-transform: translateY(-70vh);
+              transform: translateY(-70vh);
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+  }
+  @keyframes slide-bottom {
+    0% {
+      -webkit-transform: translateY(-70vh);
+              transform: translateY(-70vh);
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+  }
+  
